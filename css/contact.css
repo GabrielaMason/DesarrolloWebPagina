@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  line-height: 2.2;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+
+.formButton {
+  width: 100px;
+  border-color: #154bdd;
+  color: #154bdd;
+  border-radius: 15px;
+  margin: 1rem auto 0 auto;
+}
+
+.formButton:hover {
+  background-color: #154bdd;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Container agrega márgenes y container-fluid abarca el 100% de la página-->
+    <title>Gabriela V Mason</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="/index.html">Gabriela V Mason</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/cv.html">Curriculum</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/contact.html">Contact</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="pages/links.html">Links</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!--Banner-->
+    <div id="banner" class="container-fluid mt-5 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 my-auto">
+            <h1>Hola. Soy Gaby</h1>
+            <h2>Una estudiante de Ingeniería TI que quiere ser parte de un cambio positivo.</h2>
+          </div>
+          <div class="col-sm-4">
+            <img
+              id="profileImg"
+              class="img-fluid"
+              src="./images/worldwide.png"
+              alt="worldIcon"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Portafolio de proyectos-->
+    <div class="container portafolio">
+      <div class="row">
+          <h2>Proyectos</h2>
+        <div class="col project">
+          <a style="text-decoration: none;" href="#PanterasProjectManagement">
+            <img
+              class="imgProject"
+              src="./images/PPM_AppIcon.png"
+              alt="Proyecto PPM"
+            />
+            <h4>PPM</h4>
+            <p>
+              Aplicación web para la administración de grupos estudiantiles dentro de la
+              Universidad Panamericana.
+            </p>
+          </a>
+        </div>
+        <div class="col project">
+          <a style="text-decoration: none;" href="#PaginaCoding">
+          <img
+            class="imgProject"
+            src="./images/Coding_Icon.png"
+            alt="Proyecto PPM"
+          />
+          <h4>Página de Coding</h4>
+          <p>
+            Aplicación web para el grupo de Coding dentro de la Universidad
+            Panamericana.
+          </p>
+          </a>
+        </div>
+        <div class="col project">
+            <a href="#MenuDigital">
+          <img
+            class="imgProject"
+            src="./images/MenuDigital.png"
+            alt="Proyecto PPM"
+          />
+          <h4>Menú Digital</h4>
+          <p>
+            Aplicación web simulando un menú digital para restaurantes tipo
+            fondas.
+          </p>
+        </div>
+      </a>
+      </div>
+    </div>
+    <!--Proyectos-->
+    <div class="middle-container">
+      <div class="conatiner-fluid">
+        <h3 id="PanterasProjectManagement">
+          Panteras Project Management (PPM)
+        </h3>
+        <p>
+          Proyecto en desarollo en el grupo panteras coding para la
+          administración de todos los grupos panteras que actualmente existen
+          dentro de la Universidad Panamericana. Para poder desarrollarlo están
+          5 áreas activas: UI, Front-End, Mobile, Back-End y Seguridad. El área
+          que yo coordino es Front-End; el diseño de UI lo traducimos a lenguaje
+          de programación con React JS. El reto más desafiante es balancear el
+          aprender, estudiar y desempeñar actividades mientras que cumples con
+          los tiempos establecidos.
+        </p>
+        <div class="row hover14 column">
+            <div class="col">
+                <figure><img class="ppm-img" src="images/PPM_login.PNG" alt="ppm-1" /></figure>
+                <span class="ppm-span">Inicio de sesión</span>
+            </div>
+              <div class="col">
+                  <figure><img class="ppm-img" src="images/PPM_registration.PNG" alt="ppm-2" /></figure>
+                  <span class="ppm-span">Registro</span>
+              </div>
+              <div class="col">
+                  <figure><img class="ppm-img" src="images/ppm_prueba.PNG" alt="ppm-2" /></figure>
+                  <span class="ppm-span">Dashboard</span>
+              </div>
+              <div class="col">
+                  <figure><img class="ppm-img" src="images/PPM_calendar.PNG" alt="ppm-2" /></figure>
+                  <span class="ppm-span">Calendario</span>
+              </div>
+              <div class="col">
+                  <figure><img class="ppm-img" src="images/PPM_chat.PNG" alt="ppm-2" /></figure>
+                  <span class="ppm-span">Chat</span>
+              </div>
+        </div>
+        <button type="button" class="btn project-button"><a href="https://panteras-coding.github.io/ppmLayout/#/" target="_blank">Ver página web</a></button>
+      </div>
+      <hr>
+      <div class="project-row">
+        <h3 id="PaginaCoding">Panteras Coding</h3>
+        <p>
+            Proyecto en desarrollo dentro del grupo panteras coding que contiene la información general
+            del grupo, de cada área y de sus miembros. La página web está diseñada en React JS. El reto 
+            más desafiante es organizar y repartir las tareas dentro del área de Front-End.            
+        </p>
+        <div class="hover14 column">
+          <div>
+            <figure><img class="coding-img" src="images/IMG - Back-End.png" /></figure>
+            <span>Back-End</span>
+          </div>
+          <div>
+            <figure><img class="coding-img" src="images/IMG - Front-End.png" /></figure>
+            <span>Front-End</span>
+          </div>
+          <div>
+            <figure><img class="coding-img" src="images/IMG - Mobile.png" /></figure>
+            <span>Mobile</span>
+          </div>
+          <div>
+            <figure><img class="coding-img" src="images/IMG - Seguridad.png" /></figure>
+            <span>Seguridad</span>
+          </div>
+          <div>
+            <figure><img class="coding-img" src="images/IMG - UI-UX.png" /></figure>
+            <span>UI-UX</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid project-row">
+        <h3 id="MenuDigital">Menú Digital</h3>
+        <p>
+            Proyecto en desarrollo junto con dos estudiantes de grado universitario para proporcionar un
+            menú digital a restaurantes tipo fondas. El reto más desafiante es cumplir con los tiempos 
+            establecidos por tareas. 
+        </p>
+        <div class="row hover14 column">
+              <div class="col">
+                  <figure><img class="menu-img" src="images/MENU_menudia.PNG" alt="menu-1" /></figure>
+                  <span>Menú del Día</span>
+              </div>
+                <div class="col">
+                    <figure><img class="menu-img" src="images/MENU_menutradicional.PNG" alt="menu-2" /></figure>
+                    <span>Menú Tradicional</span>
+                </div>
+                <div class="col">
+                    <figure><img class="menu-img" src="images/MENU_canasta.PNG" alt="menu-1" /></figure>
+                    <span>Carrito de Compras</span>
+                </div>
+        </div>
+        <button type="button" class="btn project-button"><a href="https://menudigital.vercel.app/la_boruca_y_rosty" target="_blank">Ver página web</a></button>
+      </div>
+      <footer class="bg-dark text-center text-lg-start fixed-bottom">
+          <!-- Copyright -->
+          <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="/index.html">Gabrielavmason.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+  </body>
+</html>

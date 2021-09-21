@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #ecf4f3;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 10px auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+h3 {
+  text-align: left;
+  color: #68b0ab;
+}
+
+#profileImg {
+  border-radius: 50%;
+  border: 5px solid #ff7e67;
+  position: inherit;
+  margin-top: 1rem;
+}
+
+.full-width {
+  position: relative;
+}
+
+.right-side {
+  background-color: #ff7e67;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 87px;
+  bottom: 86px;
+}
+
+.my-auto {
+  background-color: #ff7e67;
+}
+
+.cv-container {
+  margin-top: 25px;
+}
+
+.cv-element {
+  margin: 0 5px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #ff7e67;
+  border-width: 5px;
+}
+
+/*Experiencia*/
+.exp-element {
+  text-align: left;
+}
+
+.exp-element ul {
+  margin-bottom: 0;
+}
+
+.exp-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/*Habilidades*/
+.ability-list {
+  list-style: none;
+  text-align: left;
+}
+
+.main-list {
+  margin-bottom: 1rem;
+}
+
+.sub-list {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*Intereses*/
+.interest-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.interest {
+  background-color: #68b0ab;
+  margin: 10px;
+  border-radius: 15px;
+  width: 60px;
+}
+
+.interest-img {
+  width: 50px;
+}
+
+/*Footer*/
+.footer {
+  background-color: #68b0ab;
+}
+
+.img-width {
+  width: 40px;
+  margin-top: 1rem;
+}
+
+.footer-text {
+  font-weight: bold;
+  color: #006a71;
+}
